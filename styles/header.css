@@ -1,0 +1,102 @@
+.header {
+    height: 111px;
+    background-color: white;
+    
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.header-container {
+    background-image: url('../Images/clouds.webp');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+   
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100%;
+    position: relative;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-group {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.nav-item:hover {
+    opacity: 0.8;
+}
+
+.arrow-down {
+    margin-top: 2px;
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brand h1 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #000;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.auth-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.auth-link:hover {
+    opacity: 0.8;
+}
+
+.auth-separator {
+    color: #000;
+    font-size: 16px;
+    margin: 0 2px;
+} 
