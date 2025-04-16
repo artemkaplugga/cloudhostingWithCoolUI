@@ -3,4 +3,5 @@
 @import url('styles/header.css');
 @import url('styles/main.css');
 @import url('styles/tarifs.css');   
-
+@import url('styles/reset.css');
+@import url('styles/high_cpu.css');

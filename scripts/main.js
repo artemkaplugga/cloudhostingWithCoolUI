@@ -233,4 +233,23 @@ document.addEventListener('DOMContentLoaded', function () {
         
         cloudsContainer.appendChild(cloud);
     }
+
+    // Dropdown for 'услуги'
+    const dropdownNav = document.querySelector('.nav-item-dropdown');
+    if (dropdownNav) {
+        dropdownNav.addEventListener('click', function(e) {
+            e.stopPropagation();
+            this.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+            dropdownNav.classList.remove('open');
+        });
+        // Чтобы клик по меню не закрывал его
+        const dropdownMenu = dropdownNav.querySelector('.dropdown-menu');
+        if (dropdownMenu) {
+            dropdownMenu.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        }
+    }
 }); 
